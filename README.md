@@ -40,7 +40,7 @@ Let there be **n** missionaries and cannibals on the left bank and a boat capaci
 
 ## <u>Goal:</u>
 
-- we'll start with initial configuration **<<n,n,0> <0,0,1>>** and the goal is to traverse through the search space and reach the goal state **<<0,0,0> <n,n,1>>** all the while, maintaining the given constraints.
+- we'll start with initial configuration **<<n,n,0> <0,0,1>>** and the goal is to traverse through the search space and reach the goal state **<<0,0,0> <n,n,1>>** all the while maintaining the given constraints.
 
 ## <u>Approach:</u>
 
@@ -50,9 +50,9 @@ Let there be **n** missionaries and cannibals on the left bank and a boat capaci
 
 - Breath-First Search  and Depth-First Search algorithms can be used for traversing the space.
 
-    - Depth-First Search, although more intuitive approach to reach the goal state, is not the most optimised method as it doesn't guarantee shortest path. 
+    - Depth-First Search, although more intuitive approach to reach the goal state, it is not the most optimised method as it doesn't guarantee shortest path. 
     
-    - Breath-First Search would always ensure that the goal state is not only reache correctly, adhering to the conditions, but also in minimum no. of moves.
+    - Breath-First Search would always ensure that the goal state is not only reached correctly adhering to the conditions, but also in minimum no. of moves.
 
     
 
