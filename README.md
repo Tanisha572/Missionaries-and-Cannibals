@@ -2,7 +2,7 @@
 
 ## <u> Traditional Problem Statement:</u>
 
-In the missionaries and cannibals problem, three missionaries and three cannibals must cross a river using a boat which can carry at most two people, under the constraint that, for both banks, if there are missionaries present on the bank, they cannot be outnumbered by cannibals (if they were, the cannibals would eat the missionaries). The boat cannot cross the river by itself with no people on board.
+In the missionaries and cannibals problem, three missionaries and three cannibals must cross a river using a boat which can carry at most two people. The trips made must ensure that, at any point of time if missionaries are on one side of the river, the number of missionaries must be equal to or exceed that of cannibals for the said side. Otherwise, the cannibals would overpower and eat the missionaries. The boat cannot cross the river by itself with no people on board.
 
 
 
